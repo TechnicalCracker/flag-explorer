@@ -1,0 +1,6 @@
+<div class="grid">
+  <div *ngFor="let country of countries" (click)="openCountryDetails(country.name)" class="flag-card">
+    <img [src]="country.flag" alt="{{ country.name }} flag" />
+    <p>{{ country.name }}</p>
+  </div>
+</div>
