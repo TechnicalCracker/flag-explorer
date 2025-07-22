@@ -1,0 +1,31 @@
+# === Java / Maven (Backend: country-api) ===
+country-api/target/
+country-api/*.log
+country-api/.mvn/
+country-api/*.jar
+country-api/*.war
+
+# === Angular / Node (Frontend: country-frontend) ===
+country-frontend/node_modules/
+country-frontend/dist/
+country-frontend/.angular/
+country-frontend/.output/
+country-frontend/npm-debug.log*
+country-frontend/yarn-debug.log*
+
+# === IDEs ===
+.idea/
+*.iml
+.vscode/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === General logs and temp ===
+*.log
+*.tmp
+
+# === Coverage / Test output ===
+**/coverage/
+test-output/
